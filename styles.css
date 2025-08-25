@@ -34,7 +34,122 @@ h1 {
     font-size: 48px;
     color: #F9FAF8;
     font-weight: 900;
+    padding-bottom: 10px;
 }
 .main-page {
     background-color: #1F2937;
+    padding: 150px;
+    display: flex;
+}
+.desc-text {
+    padding-left: 50px;
+ color: #F9FAF8;
+}
+.sign-button {
+    margin-top: 15px;
+    background-color: #3882F6;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #E5E7EB;
+    font-size: 16px;
+    width: 100px;
+    height: 45px;
+    padding: 9px;
+    border-radius: 10px;
+}
+.cat-image {
+    display: flex;
+    flex-direction: row-reverse;
+    align-items: center;
+    width: 500px;
+    height: 300px;
+    margin-right: 25px;
+    margin-left: 30px;
+}
+
+.random-info {
+    display: flex;
+    justify-content: space-around;
+}
+.items {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-bottom: 100px;
+}
+.random-items {
+ width: 150px;
+  height: 150px;
+  border: 2px solid royalblue; /* You can use any color you like */
+  border-radius: 10px;
+}
+.items-random {
+    display: flex;
+    flex-direction: row;
+    gap: 40px;
+    margin-top: 20px;
+}
+
+.h2-text{
+    text-align: center;
+    margin-top: 50px;
+    margin-bottom: 20px;
+}
+.cat-boy {
+    max-width: 100%;
+    height: 147px;
+    border-radius: 8px;
+    object-fit: cover;
+}
+.quote-text {
+    background-color: #E5E7EB;
+    height: 300px;
+    width: auto;
+    font-size: 36px;
+    font-style: italic;
+    color: #1F2937;
+}
+.quote-text p {
+    text-align: end;
+    padding-right: 370px;
+}
+.quote-text blockquote {
+padding-top: 50px;
+padding-left: 300px;
+padding-right: 300px;
+}
+.more-section {
+    padding-top: 50px;
+    padding-bottom: 50px;
+    margin-top: 100px;
+    margin-bottom: 100px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    background-color: #3882F6;
+    margin-left: 180px;
+    margin-right: 180px;
+}
+.more-text {
+    color: #F9FAF8;
+}
+.more-text h3 {
+    font-weight: 900px;
+}
+.more-sign {
+    background-color: #3882F6;
+    border-radius: 5px;
+    border-color: #F9FAF8;
+  padding: 6px 20px 6px 20px;
+    color: #F9FAF8;
+    font-size: 15px;
+}
+
+.footer-message {
+    display: flex;
+    justify-content: center;
+    background-color: #1F2937;
+    color: #F9FAF8;
+    padding: 20px;
 }
