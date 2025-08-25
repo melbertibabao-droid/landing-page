@@ -114,6 +114,8 @@ h1 {
 .quote-text p {
     text-align: end;
     padding-right: 370px;
+    font-size: 25px;
+    font-weight: 900;
 }
 .quote-text blockquote {
 padding-top: 50px;
